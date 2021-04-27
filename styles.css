@@ -1,0 +1,107 @@
+* {
+    /* defaults */
+    margin: auto 0;
+    text-align: center;
+  }
+
+.grid{
+    display: grid;
+    grid-template-columns: 500px 1fr 500px;
+    grid-template-rows: auto 1fr auto;
+    height: 90vh;
+    gap: 0;
+  }
+  header, footer{
+    grid-column: 1 / 4;
+  }
+  header, aside, article, footer{
+    font-size: medium;
+    text-align: center;
+    }
+
+article{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+footer{
+  height: 100px;
+}
+
+h1 {
+    color: white;
+    background-color:rgb(255, 0, 34);
+    text-align: center;
+    font-size: 80px;
+    height: 100px;
+    margin-bottom: 0;
+    font-family: 'Roboto', serif;
+}
+
+h2 {
+font-family: Roboto;
+padding-top: 20px;
+font-size: 40px;
+}
+
+h3 {
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+h4 {
+  background-color: rgb(255, 0, 34);
+  color: white;
+  font-family: Roboto;
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+h5{
+  background-color: rgb(255, 0, 34);
+  color: white;
+  font-size: 20px;
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.repotitle{
+  color: black;
+  font-size: 20px;
+}
+
+a.repotitle:hover
+{text-decoration: none;
+color:red;}
+
+.project{
+  padding-bottom: 50px;
+  border-bottom: 2px solid black;
+}
+
+.link{
+  color: black;
+}
+a.link:hover
+{text-decoration: none;
+color:red;}
+
+
+.Introduction{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  border-style:outset;
+}
+
+.portrait{
+  float: left;
+ padding: 0 10px 0 0
+}
